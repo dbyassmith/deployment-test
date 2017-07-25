@@ -1,0 +1,14 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    .logo, .social {
+        padding:10px;
+    }
+    .logo {
+        color: blue;
+    }
+    .social {
+        color: red;
+    }
+}
