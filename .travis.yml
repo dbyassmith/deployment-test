@@ -4,13 +4,13 @@ node_js:
 
 branches:
   only:
-    -master
+    - master
 
 before_script:
   - npm install -g @angular/cli
 
 script: 
-  -ng build --prod
+  - ng build --prod
 
 
 notifications:
